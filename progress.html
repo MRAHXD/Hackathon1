@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proStyles.css">
+    <title>ProgressTracker</title>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>Progress Tracker</h1>
+        </div>
+    </header>
+    <main>
+        <div class="box-row">
+            <h1 style="margin-left: 2%; background-color: #E0C879; margin-right: 85%; font-size: 25px; border-radius: 5px; margin-top: 5px;">Fitness Goals</h1>
+            <div class="goal1" id="goal1">
+                <div class="progress-tracker">
+                    <h1 style="text-align: center; background-color: #56EEF4; border-radius: 5px; margin: 3px; position: relative; top: 3px;">GYM</h1>
+                    <div class="progress-bar">
+                      <div class="progress" id="progress"></div>
+                    </div>
+                    <button onclick="logProgress()" class="but">Log Progress</button>
+                    <button onclick="deleteGoal()" class="but" style="margin-left: 10px; background-color: red; border-color: red;">Delete</button>
+                  </div>
+            </div>
+
+            <div class="fitGoal2" id="fitGoal2">
+                <div class="progress-tracker-fit2">
+                    <h1 style="text-align: center; background-color: #56EEF4; border-radius: 5px; margin: 3px; position: relative; top: 3px;">Push-Up</h1>
+                    <div class="progress-bar-fit2">
+                      <div class="progress-fit2" id="progress-fit2"></div>
+                    </div>
+                    <button onclick="logProgressFit2()" class="but">Log Progress</button>
+                    <button onclick="deleteGoalFit2()" class="but" style="margin-left: 10px; background-color: red; border-color: red;">Delete</button>
+                  </div>
+            </div>
+        </div>
+
+        <div class="box-row">
+            <h1 style="margin-left: 2%; background-color: #E0C879; margin-right: 85%; font-size: 25px; border-radius: 5px; margin-top: 5px;">Education</h1>
+            <div class="eduGoal1" id="eduGoal1">
+                <div class="progress-tracker-edu1">
+                    <h1 style="text-align: center; background-color: #56EEF4; border-radius: 5px; margin: 3px; position: relative; top: 3px;">Javascript</h1>
+                    <div class="progress-bar-edu1">
+                      <div class="progress-edu1" id="progress-edu1"></div>
+                    </div>
+                    <button onclick="logProgressEdu1()" class="but">Log Progress</button>
+                    <button onclick="deleteGoalEdu1()" class="but" style="margin-left: 10px; background-color: red; border-color: red;">Delete</button>
+                  </div>
+            </div>
+
+            <div class="eduGoal2" id="eduGoal2">
+                <div class="progress-tracker-edu2">
+                    <h1 style="text-align: center; background-color: #56EEF4; border-radius: 5px; margin: 3px; position: relative; top: 3px;">Maths2</h1>
+                    <div class="progress-bar-edu2">
+                      <div class="progress-edu2" id="progress-edu2"></div>
+                    </div>
+                    <button onclick="logProgressEdu2()" class="but">Log Progress</button>
+                    <button onclick="deleteGoalEdu2()" class="but" style="margin-left: 10px; background-color: red; border-color: red;">Delete</button>
+                  </div>
+            </div>
+            
+        </div>
+
+        <div class="box-row">
+            <h1 style="margin-left: 2%; background-color: #E0C879; margin-right: 85%; font-size: 25px; border-radius: 5px; margin-top: 5px;">Personal</h1>
+            <div class="perGoal1" id="perGoal1">
+                <div class="progress-tracker-per1">
+                    <h1 style="text-align: center; background-color: #56EEF4; border-radius: 5px; margin: 3px; position: relative; top: 3px;">Book</h1>
+                    <div class="progress-bar-per1">
+                      <div class="progress-per1" id="progress-per1"></div>
+                    </div>
+                    <button onclick="logProgressPer1()" class="but">Log Progress</button>
+                    <button onclick="deleteGoalPer1()" class="but" style="margin-left: 10px; background-color: red; border-color: red;">Delete</button>
+                  </div>
+            </div>
+
+        </div>
+
+        <div class="box-row">
+            <h1 style="margin-left: 2%; background-color: #E0C879; margin-right: 85%; font-size: 25px; border-radius: 5px; margin-top: 5px;">Sports</h1>
+            <div class="spoGoal1" id="spoGoal1">
+                <div class="progress-tracker-spo1">
+                    <h1 style="text-align: center; background-color: #56EEF4; border-radius: 5px; margin: 3px; position: relative; top: 3px;">Cricket</h1>
+                    <div class="progress-bar-spo1">
+                      <div class="progress-spo1" id="progress-spo1"></div>
+                    </div>
+                    <button onclick="logProgressSpo1()" class="but">Log Progress</button>
+                    <button onclick="deleteGoalSpo1()" class="but" style="margin-left: 10px; background-color: red; border-color: red;">Delete</button>
+                  </div>
+            </div>
+
+            <div class="spoGoal2" id="spoGoal2">
+                <div class="progress-tracker-spo2">
+                    <h1 style="text-align: center; background-color: #56EEF4; border-radius: 5px; margin: 3px; position: relative; top: 3px;">Chess</h1>
+                    <div class="progress-bar-spo2">
+                      <div class="progress-spo2" id="progress-spo2"></div>
+                    </div>
+                    <button onclick="logProgressSpo2()" class="but">Log Progress</button>
+                    <button onclick="deleteGoalSpo2()" class="but" style="margin-left: 10px; background-color: red; border-color: red;">Delete</button>
+                  </div>
+            </div>
+        </div>
+    </main>
+  
+
+    <script src="proscript.js"></script>
+</body>
+</html>
