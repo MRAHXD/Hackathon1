@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: #357DED;
+    background-color: white;
 }
 
 .title {
     height: 65px;
     width: 95%;
-    background-color: #56EEF4;
+    background-color: black;
     margin-left: 2.5%;
     margin-right: 2.5%;
     display: flex;
@@ -29,7 +29,7 @@ body {
     width: 95%;
     margin-left: 2.5%;
     margin-right: 2.5%;
-    background-color: #5438DC;
+    background-image: url(fitness.jpg);
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -41,7 +41,7 @@ body {
     margin-left: 2%;
     width: 23%;
     height: 80%;
-    background-color: #B24C63;
+    background-color: #56EEF4;
     border-radius: 5px;
     position: relative;
     margin-top: 8px;
@@ -55,7 +55,7 @@ body {
   .progress-bar {
     width: 70%;
     margin: 20px auto;
-    background-color: #ddd;
+    background-color: white;
     border-radius: 5px;
     height: 30px;
     position: relative;
@@ -72,17 +72,19 @@ body {
 
   .but {
     height: 40px;
-    border: 3px solid #32E875;
+    width: 100px;
+    border: 3px solid green;
     color: white;
-    background-color: #084a1f;
+    background-color: green;
     border-radius: 10px;
+    font-size: 1.2rem;
   }
 
   .fitGoal2 {
     margin-left: 2%;
     width: 23%;
     height: 80%;
-    background-color: #B24C63;
+    background-color: #56EEF4;
     border-radius: 5px;
     position: relative;
     margin-top: 8px;
@@ -96,7 +98,7 @@ body {
 .progress-bar-fit2 {
     width: 70%;
     margin: 20px auto;
-    background-color: #ddd;
+    background-color: white;
     border-radius: 5px;
     height: 30px;
     position: relative;
@@ -118,7 +120,7 @@ body {
     margin-left: 2%;
     width: 23%;
     height: 80%;
-    background-color: #B24C63;
+    background-color: #56EEF4;
     border-radius: 5px;
     position: relative;
     margin-top: 8px;
@@ -132,7 +134,7 @@ body {
 .progress-bar-edu1 {
     width: 70%;
     margin: 20px auto;
-    background-color: #ddd;
+    background-color: white;
     border-radius: 5px;
     height: 30px;
     position: relative;
@@ -151,7 +153,7 @@ body {
     margin-left: 2%;
     width: 23%;
     height: 80%;
-    background-color: #B24C63;
+    background-color: #56EEF4;
     border-radius: 5px;
     position: relative;
     margin-top: 8px;
@@ -165,7 +167,7 @@ body {
 .progress-bar-edu2 {
     width: 70%;
     margin: 20px auto;
-    background-color: #ddd;
+    background-color: white;
     border-radius: 5px;
     height: 30px;
     position: relative;
@@ -186,7 +188,7 @@ body {
     margin-left: 2%;
     width: 23%;
     height: 80%;
-    background-color: #B24C63;
+    background-color: #56EEF4;
     border-radius: 5px;
     position: relative;
     margin-top: 8px;
@@ -200,7 +202,7 @@ body {
 .progress-bar-per1 {
     width: 70%;
     margin: 20px auto;
-    background-color: #ddd;
+    background-color: white;
     border-radius: 5px;
     height: 30px;
     position: relative;
@@ -221,7 +223,7 @@ body {
     margin-left: 2%;
     width: 23%;
     height: 80%;
-    background-color: #B24C63;
+    background-color: #56EEF4;
     border-radius: 5px;
     position: relative;
     margin-top: 8px;
@@ -235,7 +237,7 @@ body {
 .progress-bar-spo1 {
     width: 70%;
     margin: 20px auto;
-    background-color: #ddd;
+    background-color: white;
     border-radius: 5px;
     height: 30px;
     position: relative;
@@ -254,7 +256,7 @@ body {
     margin-left: 2%;
     width: 23%;
     height: 80%;
-    background-color: #B24C63;
+    background-color: #56EEF4;
     border-radius: 5px;
     position: relative;
     margin-top: 8px;
@@ -268,7 +270,7 @@ body {
 .progress-bar-spo2 {
     width: 70%;
     margin: 20px auto;
-    background-color: #ddd;
+    background-color: white;
     border-radius: 5px;
     height: 30px;
     position: relative;
