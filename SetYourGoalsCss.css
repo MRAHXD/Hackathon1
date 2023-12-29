@@ -20,7 +20,7 @@
 }
 .Fitness{
     height:400px;
-    background-image: url("background_img1.jpg");
+    background-image: url("fitness1.jpg");
     background-size: cover;
 }
 .fitness-heading{
@@ -102,7 +102,7 @@
 .Education{
     height:400px;
     margin-top: 5px;
-    background-image: url("background_img2.png");
+    background-image: url("edu1.jpg");
     background-size: cover;
 
 }
@@ -185,7 +185,7 @@
 .Personal{
     height:400px;
     margin-top: 5px;
-    background-image: url("background_img3.webp");
+    background-image: url("per1.jpg");
     background-size: cover;
     translate:scale
 }
@@ -273,7 +273,7 @@
 .Sports{
     height:400px;
     margin-top: 5px;
-   background-image: url("background_img4.jpg");
+   background-image: url("sports1.jpg");
    background-size: cover;
 
 }
