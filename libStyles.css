@@ -16,7 +16,18 @@
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+
 }
+
+/* #ttl {
+  background-color: white;
+  color: black;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  width: 95%;
+  border-radius: 5px;
+  height: 60px;
+} */
 
 #vidttl {
   color: #52ffa5;
@@ -54,6 +65,7 @@
   font-weight: bold;
   font-size: 2.2em;
   margin-bottom: -50px;
+  width:90%;
 }
 
 
@@ -72,26 +84,34 @@
 }
 
 .pods {
-  height: 240px;
+  height: 280px;
   width: 98%;
-  background-color: transparent;
+  /* background-color: transparent; */
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   /* border: 2px solid black; */
   /* padding: 5px; */
   /* margin: 20px; */
-  margin-left: 0px;
+  /* margin-bottom: px; */
+  background-color:black;
+  /* margin-top:10%; */
+  margin-bottom:10%;
 }
 #pdttl {
+  margin-left: 50px;
   color: #52ffa5;
   font-weight: bold;
   font-size: 2rem;
+  /* background-color: #7b7474; */
 }
 
 #qtsttl {
+  margin-left: 50px;
   color: #52ffa5;
   font-weight: bold;
   font-size: 2rem;
+  
 }
 
 .quotes {
